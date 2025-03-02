@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Skezz shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(8_asasw1.jpg)
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            padding: 10px 0;
+            background-color: #333;
+            color: #aa9696;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .rer {
+            display: inline-block;
+            height: 1000px;
+            width: 1000px;
+            background-color: rgb(248, 248, 255);
+        }
+
+        .piki {
+            font-size: 40px;
+            text-align: left;
+            font-family:
+        }
+
+        .piki {
+            padding-left: 20px;
+            font-size: 60px;
+            display: block;
+            font-family: "Permanent Marker", serif;
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #000000;
+            padding: 15px;
+            margin-bottom: 40px;
+            display: inline;
+        }
+
+
+
+        .lili a {
+            color: #000000;
+        }
+
+        .lili a:hover { 
+            /* изменяет цвет текста при нажатии на гиперссылку */
+            color: #3498db;
+        }
+
+        .button {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 30px;
+            margin-right: 10px;
+            color: #ffffff;
+            background-color: #000000;
+            border-radius: 20px;
+            float: right;
+        }
+
+        .tet img {
+            float: center;
+            padding-top: 75px;
+            padding-left: 150px;
+        }
+
+        .kit img {
+            flood-opacity: center;
+            margin-top: 10px;
+            display: inline-block;
+            justify-content: center;    
+            margin left: 20px;
+            padding: left 10px;
+        }
+
+        .contaer {
+            padding-top: 25px;
+            padding-left: 85px;
+        }
+
+
+        .left-btn {
+            left: 10px;
+        }
+
+        .right-btn {
+            right: 10px;
+        }
+
+        .poip {
+            margin-left: 650px;
+            color: #fff;
+            display: inline-block;
+            background: rgb(0, 0, 0);
+            padding: 10px;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        image {
+            display: inline-block;
+            border-radius: 20px;
+            margin-right: 10px;
+        }
+
+        .text {
+            margin-right: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 21px;
+            white-space: pre-line;
+            /* White space служит для того чтобы текст начинался с новой строки если ему не хватает места */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .text span {
+            border-radius: 8px;
+            margin-top: 15px;
+            background: #000000;
+            display: inline-block;
+            color: #ffffff;
+        }
+
+        footer p {
+            margin-left: 20pxzxc;
+        }
+
+        /* Общий стиль футера */
+        .footer {
+            background: linear-gradient(to bottom, #1a1a1a, #000);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Контейнер для контента */
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Логотип и слоган */
+        .footer-logo h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .footer-logo p {
+            color: gray;
+            font-size: 14px;
+        }
+
+        /* Навигация */
+        .footer-nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer-nav a {
+            color: gray;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-nav a:hover {
+            color: white;
+        }
+
+        /* Социальные сети */
+        .footer-social {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-link {
+            font-size: 20px;
+            color: gray;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .social-link:hover {
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* Политика и копирайт */
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 12px;
+            color: gray;
+        }
+
+        .footer-bottom a {
+            color: gray;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-bottom a:hover {
+            color: white;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="piki"> <!-- Логотип -->
+            SKE33
+        </div>
+        <div class="lili">
+            <!-- Верхнее меню -->
+            </ul>
+            <li><a href="#">Кроссовки</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Скидки</a></li>
+            <li><a href="temka.html">Меню</a></li>
+            <li><a href="#">Футболки</a></li>
+            <li><a href="temkainf.html">Информация</a></li>
+            </ul>
+        </div>
+
+
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="tet"></div>
+
+            <div class="contaer">
+                <img src="Снимок экрана 2025-02-24 085157.png" height="950px" width="450px">
+                <img src="Снимок экрана 2025-02-24 085206.png" height="950px" width="450px">
+                <img src="Снимок экрана 2025-02-24 085232.png" height="950px" width="450px">
+            </div>
+            <div>
+                <h1 class="poip">
+                    Популярные
+                </h1>
+            </div>
+
+            <div class="conner">
+                <img src="Снимок экрана 2025-02-25 150533.png" alt="Картинка" class="image">
+                <p class="text">Mizuno Wave Rider B – комфорт и стиль в каждой детали
+
+                    Откройте для себя Mizuno Wave Rider B – кроссовки, сочетающие в себе передовые технологии и
+                    ретро-эстетику. Легендарная амортизация Wave Plate обеспечивает плавный и устойчивый шаг, а дышащий
+                    сетчатый верх гарантирует комфорт в течение всего дня. Прочная резиновая подошва с отличным
+                    сцеплением делает эту модель идеальной как для активного образа жизни, так и для стильных
+                    повседневных образов
+                    <span>Цена:300$</span>
+                </p>
+            </div>
+
+
+
+            <div class="conner">
+                <img src="Снимок экрана 2025-02-25 150526.png" alt="Картинка" class="image">
+                <p class="text"> Легендарные Nike Dunk Low Retro
+
+                    это сочетание ретро-стиля и современных технологий. Первоначально
+                    созданные для баскетбольных площадок, эти кроссовки стали иконой уличной моды. Верх из премиальной
+                    кожи обеспечивает долговечность и стиль, а мягкая амортизация делает каждую прогулку максимально
+                    комфортной
+                    <span>Цена:360$</span>
+                </p>
+            </div>
+
+
+
+            <div class="conner">
+                <img src="Снимок экрана 2025-02-25 150511.png" alt="Картинка" class="image">
+                <p class="text"> Futuremade Studio Big Boy No – свобода движения и стильный силуэт
+
+                    Мужские брюки Futuremade Studio Big Boy No – это идеальное сочетание комфорта, объемного кроя и
+                    современного минимализма. Свободный фасон с широкими штанинами создаёт расслабленный силуэт, а
+                    качественный хлопковый материал обеспечивает комфорт на весь день.
+                    <span>Цена:70$</span>
+                </p>
+            </div>
+
+            <div class="conner">
+                <img src="Снимок экрана 2025-02-25 150456.png" alt="Картинка" class="image">
+                <p class="text">United Athle Blank – минимализм и комфорт в каждой детали
+
+                    Мужская толстовка United Athle Blank – это идеальное сочетание лаконичного дизайна и
+                    высококачественных материалов. Выполненная из плотного хлопка с мягким флисовым начёсом, она
+                    обеспечивает тепло и комфорт в любую погоду.
+                    <span>Цена:100$</span>
+                </p>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Логотип и слоган -->
+            <div class="footer-logo">
+                <h2>Skezz</h2>
+                <p>Будущее начинается здесь.</p>
+            </div>
+
+            <!-- Меню сайта -->
+            <nav class="footer-nav">
+                <a href="#">Главная</a>
+                <a href="#">Продукты</a>
+                <a href="#">О нас</a>
+                <a href="#">Блог</a>
+                <a href="#">Контакты</a>
+            </nav>
+
+            <!-- Соцсети -->
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <!-- Политика и копирайт -->
+        <div class="footer-bottom">
+            <p>© 2024 Skezz. Все права защищены.</p>
+            <p>
+                <a href="#">Политика конфиденциальности</a> |
+                <a href="#">Условия использования</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
